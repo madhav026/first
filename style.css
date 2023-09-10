@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background-color: rgb(19, 19, 44); 
+  color: white; 
+  font-family: 'Poppins',sans-serif;
+  height: 100%;
+  width: 100%;
+}
+nav{
+    
+    display:  flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    height: 90px;
+    background-color: rgb(20, 20, 64);
+}
+nav ul{
+    display: flex;
+   justify-content: center;
+
+}
+#element{
+    color: rgb(154, 154, 244);
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+   color: white;
+}
+nav ul li a:hover{
+   font-size: 1.02rem;
+   color: rgb(154, 154, 255);
+}
+.left{
+    font-size: 2rem;
+}
+.first{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    margin: 230px 0px;
+}
+.first >div{
+     width: 30%;
+}
+.leftsection{
+    /* background-color: brown; */
+    /* width: 30%; */
+    font-size: 1.7rem ;
+    
+}
+.leftsection .buttons{
+    padding: 50px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.purple{
+    color: rgb(154, 154, 255);
+}
+/* .rightsection{
+   margin-top: 23px;
+   width: 10%;
+   height: 10%;
+} */
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+    padding: 23px 0px;
+}
+.secondsection h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 7%;
+}
+.about{
+    height: 70vh;
+    max-width: 80vw;
+    margin: auto;
+    height: 30vh;
+}
+main hr {
+    border: 0;
+   background: rgb(125, 125, 229);
+   height: 1.2px;
+   margin-left: 40px;
+   margin-right: 84px;
+}
+.text-gray{
+    padding: 23px 0px;
+    color: gray;
+    font-size: 0.9rem;
+}
+.secondsection .box{
+background: white;
+width: 80vw;
+height: 2px;
+margin: 56px 0px;
+}
+
+.second ul li{
+     list-style: none ;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.para{
+    padding: 23px 0px;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+ .about{
+    padding: 23px 0px;
+    height: 60vh;
+}
+.about h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.button a{
+    text-decoration: none;
+}
+.skillset{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#myimage{
+    border-radius: 50%;
+}
+.skills{
+    height: 50vh;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    /* animation-name: skills ;
+    animation-duration: 1sec;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+}
+/* @keyframes skills {
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(100%);
+    }
+    
+} */
+#img{
+    height: 200px;
+    width: 200px;
+    
+    
+}
+#heading{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+#para1{
+    line-height: 30px;
+    font-size: 20px;
+}
+ 
+
+.mainfoot{
+    height: 45vh;
+    width: 100%;
+    background:linear-gradient(rgb(38, 38, 121),rgb(70, 70, 176));
+    display: flex;
+    justify-content: space-between;
+}
+#foot{
+    border: 0;
+   background: rgb(125, 125, 229);
+   height: 1.2px;
+   margin-left: 40px;
+   margin-right: 84px;
+   margin-bottom: 12px;
+   justify-content: space-around;
+   align-items: center;
+}
+#contact{
+    height: 40vh;
+    width: 30%;
+    
+    
+}
+#Allpages{
+    height: 40vh;
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    /* background-color: aqua; */
+}
+#email{
+    height: 40vh;
+    width: 30%;
+    font-size: 30px;
+    margin: 10px;
+    /* background-color: aliceblue; */
+    
+}
+#email #link{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+#contact h1{
+    color: white;
+    font-size: 33px;
+    white-space: nowrap;
+    margin: 10px;
+    margin-left: 23px;
+}
+#contact h3{
+    color:white;
+    font-size: 23px;
+    margin: 10px;
+    margin-left: 23px;
+}
+#contact p{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px;
+    margin-left: 23px;
+}
+#Allpages h4{
+    font-size:30px ;
+   
+    text-align: center;
+}
+#Allpages ul li{
+    list-style: none;
+    
+}
+#Allpages ul li a{
+    text-decoration: none;
+   color: white;
+}
+#Allpages ul li a:hover{
+   font-size: 23px;
+   color: rgb(154, 154, 255);
+}  
